@@ -103,7 +103,7 @@ header{
   grid-column: 1 / -1;  /*Can you explain what this does?*/
   grid-row: 1 / auto;   /*Can you rewrite it?*/
 
-  background-image: url('header.jpg');
+  background-image: url('images/header.jpg');
   background-repeat: no-repeat;
 }
 
