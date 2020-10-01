@@ -169,6 +169,10 @@ background-color: rgba(255, 255, 255, .8);
     /*Your code here:*/
   }
 
+    .skip{
+  position: absolute;
+}
+    
   .skip a {
      position: relative;
      top: -40px;
