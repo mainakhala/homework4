@@ -37,10 +37,9 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/*Your Code Here*/
-/*Write selector/rule property to add an underline when
-links in the navigation are in the hover or focus state.*/
-
+.skip{
+  position: absolute;
+}
 
 .skip a{
   background: white;
@@ -49,10 +48,14 @@ links in the navigation are in the hover or focus state.*/
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
-  /* position: relative; */
-
-
+  position: relative;
+  top: -40px;
   /*Your code here*/
+}
+
+.skip a:focus{
+  position: relative;
+  top: 0px;
 }
 
 /*Your Code Here*/
@@ -166,6 +169,11 @@ background-color: rgba(255, 255, 255, .8);
     /*Your code here:*/
   }
 
+  .skip a {
+     position: relative;
+     top: -40px;
+    }
+    
   .container{
     /*Your code here:*/
     display: grid;
